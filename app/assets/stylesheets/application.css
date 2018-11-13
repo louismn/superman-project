@@ -13,3 +13,154 @@
  *= require_tree .
  *= require_self
  */
+.button{
+     font-family: Arial,sans-serif;
+     font-size: 1.6em;
+     width: 200px;
+     height: 43px;
+     padding-top: 7px; /*permet le centrage vertical*/
+     text-align: center;
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+      border-radius: 8px;
+       text-shadow: 0px 1px 0px white;
+        text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.2);
+         box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+                 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+   
+.button:hover{
+     color: #222;
+     background: #555;
+     background: linear-gradient( #777, #333);
+}
+
+.button:active{
+     color: #000;
+     background: #444;
+     background: linear-gradient( #555, #2C2C2C);
+     box-shadow: 1px 1px 10px black inset, 
+                 0 1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+.button a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+/* Début de la Card */
+
+.avatar{
+  border: solid 1px black;
+  width: 30%;
+}
+.avatar >img{
+border-radius: 50%;
+vertical-align: middle;
+ margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+}
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar  img{
+float: left;
+ padding: 14px 16px;
+  display: block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+
+}
+
+/* The dropdown container */
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px; 
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+/*  z-index: 1;*/
+}
+
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background-color: #ccc;
+  height: 250px;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: none;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: #ddd;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
