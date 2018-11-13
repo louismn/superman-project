@@ -1,24 +1,7 @@
-# README
+Bienvenue sur notre super site sur Superman 
+lien du Heroku : https://superman-site.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1.téléchargez le projet en faisant un git clone.
+2.Rentrer dans la console et tappez la commande rails db:create
+3.Dans la console tappez rails servor
+4. Connectez vous à l'adresse localhost:3000 et admirez ce magnifique site web
