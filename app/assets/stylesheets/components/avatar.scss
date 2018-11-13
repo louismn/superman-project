@@ -1,21 +1,34 @@
-.avatar{
+/*.avatar{
   border: solid 1px black;
   width: 30%;
-}
+}*/
+
 .avatar >img{
 border-radius: 50%;
 vertical-align: middle;
-margin-left: auto;
+margin: auto;
 margin-right: auto;
-width: 150px;
+width: 75%;
 display: flex;
 justify-content: center; 
-align-items: center; 
+align-items: center;
+position: relative;
+left:100%;
+
+ 
 }
 
-.avatar >h2, p{  
-  display: flex;
-  justify-content: center; 
-  align-items: center; 
+#identity {  
+justify-content: center; 
+align-items: center;
+position: relative;
+left:116%;
+  
 }
 
+#job {
+justify-content: center; 
+align-items: center;
+position: relative;
+left:100%;
+}
