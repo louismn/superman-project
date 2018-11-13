@@ -12,8 +12,6 @@
 </head>
 
 <body>
-
-
 	<div class="navbar">
 		<div class="navbar-logo">
 			<%= image_tag "superman.png" %>
@@ -39,19 +37,61 @@
 	<h1>Est-ce un oiseau, est-ce un avion, non c'est super-man </h1> 
 </div>
 
-<div class="button">
-		<a href="#">Click on me </a>
-	</div>	
-	
 
 
-	<div class="avatar">
-		<%= image_tag "moi.jpg" %>
-	
+<div class="tabs">
+
+  <input id="tab1" type="radio" name="tabs" checked>
+  <label for="tab1">Batman</label>
+
+  <input id="tab2" type="radio" name="tabs">
+  <label for="tab2">Superman</label>
+
+  <input id="tab3" type="radio" name="tabs">
+  <label for="tab3">Wonderwoman</label>
+
+  <input id="tab4" type="radio" name="tabs">
+  <label for="tab4">Flash</label>
+
+  <section id="content1">
+    <p>
+      Jerky jowl pork chop tongue, kielbasa shank venison. Capicola shank pig ribeye leberkas filet mignon brisket beef kevin tenderloin porchetta. Capicola fatback venison shank kielbasa, drumstick ribeye landjaeger beef kevin tail 
+    </p>
+    
+  </section>
+
+  <section id="content2">
+    <p>
+      Bacon ipsum dolor sit amet landjaeger sausage brisket, jerky drumstick fatback boudin.
+    </p>
+    
+  </section>
+
+  <section id="content3">
+    <p>
+      Jerky jowl pork chop tongue, kielbasa shank venison. Capicola shank pig ribeye leberkas filet mignon brisket beef 
+    </p>
+    
+  </section>
+
+  <section id="content4">
+    <p>
+      Bacon ipsum dolor sit amet landjaeger sausage brisket, jerky drumstick fatback boudin.
+    </p>
+    
+  </section>
+</div>	
+
+
+<div class="avatar">
+	<%= image_tag "moi.jpg" %>	
 	<H2>Louis Martin du Nord</H2>
-<p>Journalist at the Daily Planet</p>
-
+	<p>Journalist at the Daily Planet</p>
 </div>
+
+<div class="button">
+	<a href="#">Click on me </a>
+</div>	
 
 </body>
 
